@@ -1,7 +1,6 @@
 import { INewPost, INewUser, IUpdatePost, IUpdateUser } from "@/types";
 import { account, appwriteConfig, avatars, databases, storage } from "./config";
 import { ID, Query  } from "appwrite";
-import { string } from "zod";
 
 
 export async function createUserAccount(user: INewUser) {
